@@ -1,0 +1,32 @@
+# Agent Experience Entry
+
+- Date:
+- Agent:
+- Task summary:
+- Artifact genre:
+- Tier:
+- Risk:
+- Reviewer used:
+- Reviewer status:
+- Findings count:
+  - BLOCKER:
+  - ERROR:
+  - WARNING:
+  - STYLE:
+- Adoption summary:
+  - adopted:
+  - partly adopted:
+  - rejected:
+- What did not fit this project or artifact type:
+- What was especially useful:
+- What caused noise or friction:
+- Calibration lesson:
+  - true defect:
+  - documented limitation:
+  - overreach or false positive:
+- Suggested improvement:
+  - standards:
+  - template:
+  - reviewer prompt:
+  - deterministic lint:
+  - workflow:

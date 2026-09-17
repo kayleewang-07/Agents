@@ -12,6 +12,7 @@ Use `standards/` when you want the rules for how something should be written, re
 
 - Genre standards live in `standards/genres/<genre>/`
 - Format standards live in `standards/formats/<format>/`
+- Cross-cutting standards for data cleaning, security, testing, and standards packages live at the top of `standards/`
 - Reviewer prompts usually live beside the corresponding standard as `reviewer_prompt.md`
 
 Examples:
@@ -20,6 +21,7 @@ Examples:
 - `standards/genres/survey/reviewer_prompt.md`
 - `standards/formats/python/standards.md`
 - `standards/formats/python/reviewer_prompt.md`
+- `reviewer/review_contract.md`
 
 ### Templates stay together
 
@@ -57,6 +59,8 @@ Example:
 
 - `standards/INDEX.md`
 - `templates/INDEX.md`
+- `reviewer/review_contract.md`
+- `reviewer/review_report_schema.md`
 - `skills/INDEX.md`
 - `CAPABILITIES.md`
 - `AGENTS.md`

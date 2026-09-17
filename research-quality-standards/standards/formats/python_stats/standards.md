@@ -6,7 +6,7 @@ These standards apply to Python code that cleans data, builds analysis datasets,
 
 These rules supplement the Generic Python Standards. They do not replace them.
 
-
+The goal is not merely code that runs. The goal is analysis code that is reproducible, auditable, statistically transparent, and difficult to misuse.
 
 Related template: [python_stats template](../../../templates/code/python_stats/template.py)
 

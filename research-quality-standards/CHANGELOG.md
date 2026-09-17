@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased - 2026-09-17
+
+- Recovered missing workflow templates, focused standards, and reviewer calibration lessons from the retained legacy worktree.
+- Reconciled reviewer severities and verdicts, including an explicit `REVIEW_UNAVAILABLE` status.
+- Made the survey interview-note template canonical and converted the older interview path to a compatibility pointer.
+- Added repository-integrity tests to prevent broken critical references and vocabulary drift.
+
 ## 0.1.0 - 2026-05-06
 
 - Created initial repository structure.

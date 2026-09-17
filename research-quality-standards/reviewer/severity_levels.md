@@ -1,13 +1,16 @@
 # Severity Levels
 
-Version: 0.1.0
-Last updated: 2026-05-06
+Version: 0.2.0
+Last updated: 2026-09-17
 
 ## Definitions
 
-- `ERROR`: high-risk defect that blocks advancement at `DRAFT` and `SUBMISSION`
+- `BLOCKER`: artifact must not be delivered or merged until resolved; use for unsafe, invalid, or unreviewable high-stakes conditions
+- `ERROR`: defect that must be fixed or explicitly waived before advancement at `DRAFT` and `SUBMISSION`
 - `WARNING`: significant issue that should be fixed before the next stage
 - `STYLE`: preferred improvement that usually does not affect validity or usability
+
+`REVIEW_UNAVAILABLE` is a review status, not a finding severity. Do not report zero findings as a completed pass when review could not run.
 
 ## Escalation Rule
 

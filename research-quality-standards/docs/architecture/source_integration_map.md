@@ -51,3 +51,15 @@ Some imported files are:
 - placeholders for later normalization
 
 Use the indexes to see whether something is `active`, `integrated`, or `planned`.
+
+## Recovery note - 2026-09-17
+
+The first consolidation imported workflow documents without all of their referenced templates and experience log, retained two diverging interview templates, and combined reviewer guidance with incompatible severity and verdict vocabularies.
+
+Recovered from the retained legacy worktree:
+
+- focused data-cleaning, security, testing, and standards-package guidance
+- progress, final-report, referee-report, and experience-log templates
+- reviewer calibration lessons and contract behavior
+
+Guardrail: `tests/unit/test_repository_integrity.py` checks critical workflow references, reviewer vocabulary, index coverage, and the interview-template compatibility path. Reusable assets and their navigation entries must change together.

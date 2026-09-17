@@ -58,7 +58,7 @@ Reviewer must return:
 - unresolved cautions
 - whether human review is needed
 
-Use `templates/referee_report_template.md`.
+Use `templates/operations/referee_report_template.md` and `reviewer/review_contract.md`.
 
 ## After review
 
@@ -69,7 +69,7 @@ Codex should:
 3. ignore STYLE issues only with reason
 4. rerun relevant verification
 5. update final report
-6. record review usefulness and friction in `logs/AGENT_EXPERIENCE_LOG.md` when the session qualifies under `AGENTS.md`
+6. record review usefulness and friction in `docs/AGENT_EXPERIENCE_LOG.md` when the session qualifies under `AGENTS.md`
 
 Reviewer-proposed repairs are welcome when feasible, but they are not self-authenticating. The original generating agent or a human must agree before those repairs are accepted.
 

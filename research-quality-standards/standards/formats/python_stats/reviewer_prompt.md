@@ -56,9 +56,10 @@ Return exactly these sections.
 Choose one:
 
 - PASS
-- PASS WITH MINOR ISSUES
-- NEEDS REVISION
-- SERIOUS PROBLEMS
+- PASS_WITH_WARNINGS
+- REVISIONS_REQUIRED
+- BLOCKED
+- REVIEW_UNAVAILABLE
 
 Add one sentence explaining the verdict.
 

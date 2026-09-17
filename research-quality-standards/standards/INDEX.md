@@ -35,6 +35,10 @@ For day-to-day use, treat the artifact matrix below as the canonical lookup tabl
 | Python code | Python | `formats/python` |
 | Python statistical / research code | Python | `formats/python` + `formats/python_stats` |
 | Stata code | Stata | `formats/stata` |
+| Data cleaning pipeline | Code / documentation | `data_cleaning.md` + relevant code format |
+| Security-sensitive change | Any | `security.md` + relevant genre or format |
+| Executable change | Any code | `testing.md` + relevant genre or format |
+| Standards package | Repository / Markdown | `standards_package.md` |
 
 ## Notes on use
 
@@ -74,6 +78,15 @@ For day-to-day use, treat the artifact matrix below as the canonical lookup tabl
 | `csv` | `standards/formats/csv/` | planned |
 | `pdf` | `standards/formats/pdf/` | planned |
 | `json` | `standards/formats/json/` | planned |
+
+## Focused standards
+
+| Topic | Path | Source status |
+|---|---|---|
+| Data cleaning | `standards/data_cleaning.md` | integrated |
+| Security and secrets | `standards/security.md` | integrated |
+| Testing and verification | `standards/testing.md` | integrated |
+| Standards packages | `standards/standards_package.md` | integrated |
 
 ## Schemas
 

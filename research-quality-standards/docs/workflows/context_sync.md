@@ -80,7 +80,7 @@ Actions:
 - blockers
 - reviewer results
 
-Use `templates/progress_log_template.md`.
+Use `templates/operations/progress_log_template.md`. Use `templates/operations/final_report_template.md` when closing the session.
 
 ## Resumption validation
 

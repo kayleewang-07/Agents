@@ -2,7 +2,7 @@
 
 Version: 0.1.0
 Status: Draft
-
+Last updated: 2026-09-17
 
 Related template: [household_survey_master_template](../../../templates/surveys/household_survey_master_template.md)
 

@@ -34,6 +34,11 @@ If a standard wants to point to a template, use a normal relative Markdown link 
 | `drive_submissions_readme` | `templates/operations/drive_submissions_readme.md` | `operations` | integrated |
 | `overnight_session_report_template` | `templates/operations/overnight_session_report_template.md` | `operations` | integrated |
 | `needs_human_template` | `templates/operations/needs_human_template.md` | `operations` | integrated |
+| `progress_log_template` | `templates/operations/progress_log_template.md` | `operations` | integrated |
+| `final_report_template` | `templates/operations/final_report_template.md` | `operations` | integrated |
+| `referee_report_template` | `templates/operations/referee_report_template.md` | `operations` | integrated |
+| `agent_experience_log_entry` | `templates/operations/agent_experience_log_entry.md` | `operations` | integrated |
+| `standards_package_readme_template` | `templates/README/standards_package_readme_template.md` | `work_product_reviews` | integrated |
 | `deferred_suggestions_template` | `templates/planning/deferred_suggestions_template.md` | `planning` | integrated |
 | `plan_template` | `templates/planning/plan_template.md` | `planning` | integrated |
 | `reviewer_feedback_synthesis_template` | `templates/planning/reviewer_feedback_synthesis_template.md` | `planning` | integrated |

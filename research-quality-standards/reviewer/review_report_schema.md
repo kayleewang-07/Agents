@@ -1,7 +1,7 @@
 # Review Report Schema
 
-Version: 0.1.0
-Last updated: 2026-05-06
+Version: 0.2.0
+Last updated: 2026-09-17
 
 Reviewer outputs should follow this structure.
 
@@ -18,17 +18,19 @@ Reviewer outputs should follow this structure.
 1. `Verdict`
    One of:
    - `PASS`
-   - `PASS WITH MINOR ISSUES`
-   - `REVISIONS REQUIRED`
-   - `SERIOUS PROBLEMS`
+   - `PASS_WITH_WARNINGS` (no BLOCKER or ERROR findings)
+   - `REVISIONS_REQUIRED` (one or more ERROR findings, no BLOCKER)
+   - `BLOCKED` (one or more BLOCKER findings)
+   - `REVIEW_UNAVAILABLE` (review could not be completed; not a pass)
 
 2. `Counts`
+   - number of `BLOCKER`s
    - number of `ERROR`s
    - number of `WARNING`s
    - number of `STYLE` items
 
 3. `Blocking Issues`
-   Only `ERROR`s. Each should include location and repair instruction.
+   `BLOCKER` and `ERROR` findings. Each should include location and repair instruction.
 
 4. `Warnings`
    Material issues that should be corrected before the next stage.
@@ -44,3 +46,7 @@ Reviewer outputs should follow this structure.
 
 8. `Human Cautions`
    Brief summary of any residual risks or judgment calls a PI should see.
+
+For `REVIEW_UNAVAILABLE`, give the cause, inputs or access needed, and which deterministic checks remain possible. Do not fabricate finding counts.
+
+Use `templates/operations/referee_report_template.md`. The severity definitions are in `severity_levels.md` and reviewer conduct is in `review_contract.md`.
