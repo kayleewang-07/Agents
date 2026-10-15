@@ -1,8 +1,8 @@
-# Constitution
+﻿# Constitution
 
-Version: 0.1.0
+Version: 0.2.0
 Status: Draft
-Last updated: 2026-05-06
+Last updated: 2026-10-14
 Related templates: all
 Related examples: `examples/README.md`
 Lint opportunities: provenance fields, unresolved-work field, destructive path checks, consistency checks where feasible
@@ -87,6 +87,14 @@ Exploratory work may be incomplete, but it must not masquerade as validated draf
 ### 10. Human Reviewability
 
 Artifacts must be legible to a human reviewer without hidden critical steps, undocumented transformations, or unexplained decisions.
+
+### 11. Analyses Live In Version Control
+
+All statistical analyses, including the code, a README of results, and provenance, must be committed to the project's GitHub repository.
+
+- Iterating locally for a run or two is fine, but push to GitHub at the end of the working day or as soon as an analysis produces a result someone will use, whichever comes first.
+- A number quoted in a memo, doc, or chat should point to a commit or pull request that reproduces it.
+- Never commit raw data that the data provider does not allow us to redistribute (for example, DHS microdata). Commit the code and the path or instructions to obtain the data instead.
 
 ## Interpretation Rule
 
