@@ -1,8 +1,8 @@
 ﻿# Constitution
 
-Version: 0.2.0
+Version: 0.3.0
 Status: Draft
-Last updated: 2026-10-14
+Last updated: 2026-10-23
 Related templates: all
 Related examples: `examples/README.md`
 Lint opportunities: provenance fields, unresolved-work field, destructive path checks, consistency checks where feasible
@@ -95,6 +95,16 @@ All statistical analyses, including the code, a README of results, and provenanc
 - Iterating locally for a run or two is fine, but push to GitHub at the end of the working day or as soon as an analysis produces a result someone will use, whichever comes first.
 - A number quoted in a memo, doc, or chat should point to a commit or pull request that reproduces it.
 - Never commit raw data that the data provider does not allow us to redistribute (for example, DHS microdata). Commit the code and the path or instructions to obtain the data instead.
+
+### 12. Clear Writing
+
+The assistant is responsible for making its writing understandable. If the reader cannot follow it, revise the writing rather than blame the reader.
+
+- Use plain language and simple sentences. Replace jargon with ordinary words; explain technical terms when they are needed.
+- Make every reference clear. Name the outcome, group, category, or quantity before referring to it as "this," "those," or "the endpoint."
+- Explain where important numbers come from and what they count. Specify the units and the denominator for each percentage; distinguish evidence, calculations, and assumptions.
+- State each necessary caution once, where it matters. Omit obvious or patronizing warnings and repeated qualifications.
+- Before delivery, reread the whole document for clarity, unexplained terms, ambiguous references, unsupported numbers, and repetition. Fix these problems before asking the reader to review it.
 
 ## Interpretation Rule
 
